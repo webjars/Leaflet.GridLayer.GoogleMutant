@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>Leaflet.GridLayer.GoogleMutant</artifactId>
-    <version>0.11.4-SNAPSHOT</version>
+    <version>0.12.1-SNAPSHOT</version>
     <name>Leaflet.GridLayer.GoogleMutant</name>
     <description>WebJar for Leaflet.GridLayer.GoogleMutant</description>
     <url>http://webjars.org</url>
@@ -23,10 +23,10 @@
         <requirejs>
             {
                 "paths": {
-                    "Leaflet.GridLayer.GoogleMutant": "MAIN_JS"
+                    "Leaflet.GridLayer.GoogleMutant": "Leaflet.GoogleMutant"
                 },
                 "shim": {
-                    "Leaflet.GridLayer.GoogleMutant": ["DEP_ID"]
+                    "Leaflet.GridLayer.GoogleMutant": ["leaflet"]
                 }
             }
         </requirejs>
@@ -54,6 +54,14 @@
         <developerConnection>scm:git:https://github.com/webjars/Leaflet.GridLayer.GoogleMutant.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>leaflet</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+    </dependencies>
     
     <build>
         <plugins>
