@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>Leaflet.GridLayer.GoogleMutant</artifactId>
-    <version>0.12.2-SNAPSHOT</version>
+    <version>0.13.5-SNAPSHOT</version>
     <name>Leaflet.GridLayer.GoogleMutant</name>
     <description>WebJar for Leaflet.GridLayer.GoogleMutant</description>
     <url>http://webjars.org</url>
